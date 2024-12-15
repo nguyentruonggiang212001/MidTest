@@ -1,16 +1,16 @@
 import React, { useContext, useState } from "react";
 import { ProductsContext } from "../contexts/ProductsContext";
-import { Link } from "react-router-dom";
+import { data, Link } from "react-router-dom";
 import instance from "../services";
 
 const ProductTable = () => {
   const { state, dispatch } = useContext(ProductsContext);
   console.log(state);
+
   const handleRemove = async (id) => {
-    if (confirm("Are you sure you want to delete this product?")) {
+    if (confirm("do you want delete")) {
       await instance.delete(`/products/${id}`);
-      const response = await instance.get("/products");
-      dispatch({ type: "SET_PRODUCTS", payload: response.data });
+      dispatch({ type: "DELETE_PRODUCTS", payload: id });
     }
   };
 

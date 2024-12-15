@@ -13,6 +13,7 @@ export const ProductProvider = ({ children }) => {
       dispatch({ type: "SET_PRODUCTS", payload: data });
     })();
   }, []);
+
   return (
     <ProductsContext.Provider value={{ state, dispatch }}>
       {children}

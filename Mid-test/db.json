@@ -1,52 +1,30 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "Product 1",
-      "price": 100,
-      "description": "Description for product 1"
+      "title": "1111111111",
+      "price": 1111111111,
+      "description": "55555555555",
+      "id": 2
     },
     {
-      "id": 2,
-      "title": "Product 2",
-      "price": 200,
-      "description": "Description for product 2"
-    },
-    {
-      "id": 3,
-      "title": "Product 3",
-      "price": 300,
-      "description": "Description for product 3"
+      "title": "133333333",
+      "price": 222,
+      "description": "555555",
+      "id": 3
     },
     {
       "title": "111111",
-      "price": 1111,
-      "description": "11111",
+      "price": 11111,
+      "description": "11111111",
       "id": 4
-    },
+    }
+  ],
+  "users": [
     {
-      "title": "111111",
-      "price": 111111,
-      "description": "111111111111",
-      "id": 5
-    },
-    {
-      "title": "6666666",
-      "price": 666666,
-      "description": "6666666",
-      "id": 6
-    },
-    {
-      "title": "77777777777",
-      "price": 77777777,
-      "description": "77777777",
-      "id": 7
-    },
-    {
-      "title": "999999",
-      "price": 999999,
-      "description": "999999",
-      "id": 8
+      "email": "NguyenTruongGiang@gmail.com",
+      "password": "$2a$10$aoZj28YrI0VyTaiW6eWVperw2PUILlwrflf96znF4TEFKqEv.tFau",
+      "confirm": "123456",
+      "id": 1
     }
   ]
 }
